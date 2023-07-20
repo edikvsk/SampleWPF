@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.MLCHARGENLib">
+      <HintPath>C:\Program Files (x86)\Medialooks\MPlatform SDK\Samples Basic\C#\WPF Live Source Sample\bin\x64\Debug\Interop.MLCHARGENLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MPLATFORMLib">
+      <HintPath>C:\Program Files (x86)\Medialooks\MPlatform SDK\Samples Basic\C#\WPF Live Source Sample\bin\x64\Debug\Interop.MPLATFORMLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
